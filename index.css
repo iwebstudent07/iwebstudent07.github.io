@@ -1,0 +1,24 @@
+  <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: grid;
+            min-height: 100vh;
+            align-content: center;
+            text-align: center;
+            background: #F3EEE0;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            margin: 0;
+            color: #FB7B8D;
+        }
+
+        p {
+            color: #000000;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+    </style>
