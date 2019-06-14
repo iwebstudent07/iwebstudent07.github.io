@@ -27,7 +27,7 @@ body {
 
 /* #HEADINGS */
 h1 {
-    color: #BAEBFA;
+    color: #365880;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
 }
@@ -42,12 +42,12 @@ h2 {
 
 h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #939BCB;
+    color: #133855;
 }
 
 /* #PARAGRAPHS */
         p {
-            color: #939BCB;
+            color: #292D53;
             margin: 0 0 .5em 0;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
