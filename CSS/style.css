@@ -13,89 +13,40 @@
 body {
     margin:0;
     padding:2em;
+    background: #70CBCE;
 }
 
 /* #BASE TYPOGRAPHY */
         body {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             display: grid;
             min-height: 100vh;
             align-content: center;
             text-align: center;
-            background: #F3EEE0;
             border-radius: 50%;
         }
 
-*/ #HEADINGS
-    Based on a Traditional Typographic Scale
-    48, 36, 24, 21, 18, 16
-*/
-
-h1, h2, h3, h4, h5, h6 {
-            margin: .5em 0;
-            color: #FB7B8D;
+/* #HEADINGS */
+h1 {
+    color: #DC72AD;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
 }
 
-h1{
-    font-size: 3em; /* 48px / 16px = 3em */
-}
 
-h2{
-    font-size: 2.25em; /*36px / 16px = 2.25em */
-	line-height: 1.1em;
-}
-
-h3 {
-	font-size: 1.5em; /* 24px / 16px = 1.5em */
-	line-height: 1.2em;
-}
-
-h4 {
-	font-size: 1.3125em; /* 21px / 16px = 1.3125em */
-	line-height: 1.3em;
-}
-
-h5 {
-	font-size: 1.125em; /* 18px / 16px = 1.125em */
-	line-height: 1.4em;
-}
-
-h6 {
-	font-size: 1em; /* 16px / 16px = 1em */
-	line-height: 1.5em;
+h2 {
+    margin: .5em 0;
+    color: #426284;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
 }
 
 /* #PARAGRAPHS */
         p {
-            color: #000000;
+            color: #574372;
             margin: 0 0 .5em 0;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
         }
 
 /* #LINKS */
-a {color: #39c; text-decoration: none; }
-a:hover { color: #069; text-decoration: underline; }
-a:focus { color: #39c; }
-a:visited { color: #39c; }
-
-
-/* #LISTS */
-
-ul, ol, li {
-    margin: 0;
-    padding: 0;
-}
-
-ul, ol {
-    padding-bottom: 1em;
-}
-
-ul li ul, ul li ol, ol li ul, ol li ol {
-    margin: 0;
-    padding-bottom: 0;
-}
-
-li {
-    margin-left: 1.875em;
-}
+a {color: #BB6093; text-decoration: none; }
