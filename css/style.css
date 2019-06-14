@@ -1,0 +1,57 @@
+  /* BASE (Initital Setup)
+=====================================
+  #BODY RESET
+  #BASE TYPOGRAPHY
+    #BODY
+    #HEADINGS
+    #PARAGRAPHS 
+    #LINKS
+    #LISTS
+===================================== */
+
+/* #BODY RESET */
+body {
+    margin:0;
+    padding:2em;
+    background: #70CBCE;
+}
+
+/* #BASE TYPOGRAPHY */
+        body {
+            display: grid;
+            min-height: 100vh;
+            align-content: center;
+            text-align: center;
+            border-radius: 50%;
+        }
+
+/* #HEADINGS */
+h1 {
+    color: #365880;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+}
+
+
+h2 {
+    margin: .5em 0;
+    color: #13436B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #133855;
+}
+
+/* #PARAGRAPHS */
+        p {
+            color: #292D53;
+            margin: 0 0 .5em 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+/* #LINKS */
+a {color: #BB6093; text-decoration: none; }
