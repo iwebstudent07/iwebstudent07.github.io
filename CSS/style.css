@@ -27,7 +27,7 @@ body {
 
 /* #HEADINGS */
 h1 {
-    color: #DC72AD;
+    color: #BAEBFA;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
 }
@@ -35,14 +35,19 @@ h1 {
 
 h2 {
     margin: .5em 0;
-    color: #426284;
+    color: #13436B;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
 }
 
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #939BCB;
+}
+
 /* #PARAGRAPHS */
         p {
-            color: #574372;
+            color: #939BCB;
             margin: 0 0 .5em 0;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
