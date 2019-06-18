@@ -9,7 +9,6 @@
     #LISTS
 ===================================== */
 
-<link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Permanent+Marker|Poiret+One|Quicksand|Unica+One&display=swap" rel="stylesheet">
 
 /* #BODY RESET */
 
@@ -30,6 +29,7 @@ a {
 header {
     background: #B88D79;
     padding: 1em 2em;
+    font-family: 'Unica One', cursive;
 }
 
 header a {
