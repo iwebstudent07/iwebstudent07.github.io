@@ -45,7 +45,8 @@ header {
 /* SITE ID */
 .site-id h1{
     margin: 0;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
 }
 
 /* NAV */
@@ -64,7 +65,7 @@ nav li {
 nav a {
     display: block;
     padding: 1em;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* FOOTER */
@@ -111,12 +112,12 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
-    font-family: 'Unica One', cursive;
+    font-family: 'Abel', sans-serif;
 }
 /* #HEADINGS */
 h1 {
     font-size: 3em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 @media (max-width:767px) {
@@ -128,7 +129,7 @@ h1 {
 h2 {
     margin: .5em 0;
     font-size: 1em;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poiret One', cursive;
 }
 
 /* #PARAGRAPHS */
