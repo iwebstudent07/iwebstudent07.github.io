@@ -105,6 +105,11 @@ section {
     margin: 1em auto;
 }
 
+.page-sub .hero {
+    min-height: 30vh;
+    background: #BAEBFA;
+}
+
 /* LISTS */
 .lists {
     max-width: 1000px;
