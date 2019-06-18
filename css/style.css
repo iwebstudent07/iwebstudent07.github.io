@@ -45,6 +45,7 @@ header {
 /* SITE ID */
 .site-id h1{
     margin: 0;
+    font-family: 'Poiret One', cursive;
 }
 
 /* NAV */
@@ -63,6 +64,7 @@ nav li {
 nav a {
     display: block;
     padding: 1em;
+    font-family: 'Poiret One', cursive;
 }
 
 /* FOOTER */
@@ -109,7 +111,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Unica One', cursive;
 }
 /* #HEADINGS */
 h1 {
@@ -126,7 +128,7 @@ h1 {
 h2 {
     margin: .5em 0;
     font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* #PARAGRAPHS */
