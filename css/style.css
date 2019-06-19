@@ -16,7 +16,7 @@
 
 body {
     margin:0;
-    padding:2em;
+    padding:0;
     background: #AAF0D1;
 }
 
@@ -90,14 +90,34 @@ section {
     padding: 3em 1em;
 }
 
+/* BLOG Archives */
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #7d4817;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blog-entry {
+    border: 1px solid #3F000E;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
+    color: #7B3F00;
+}
+
 /* HERO */
 .hero {
     display: grid;
     align-content: center;
     text-align: center;
-    background: #68AEB8;
+    background: #46CB9B;
     min-height: 50vh;
-    color: #365880;
+    color: #D5F8E8;
 }
 
 .hero p{
@@ -119,11 +139,13 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
     font-family: 'Abel', sans-serif;
+    color: #5F1A33;
 }
 /* #HEADINGS */
 h1 {
     font-size: 3em;
     font-family: 'Amatic SC', cursive;
+    color: #7d4817;
 }
 
 @media (max-width:767px) {
@@ -136,14 +158,17 @@ h2 {
     margin: .5em 0;
     font-size: 1em;
     font-family: 'Poiret One', cursive;
+    color: #8A5117;
 }
 
 /* #PARAGRAPHS */
         p {
             margin: 0 0 .5em 0;
             font-family: 'Quicksand', sans-serif;
+            color: #7B3F00;
         }
 
         li{
             text-align: left;
+            color: #3F000E;
         }
