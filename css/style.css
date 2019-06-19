@@ -17,7 +17,7 @@
 body {
     margin:0;
     padding:2em;
-    background: #70CBCE;
+    background: #AAF0D1;
 }
 
 a {
@@ -107,8 +107,8 @@ section {
 
 .page-sub .hero {
     min-height: 30vh;
-    background: #BAEBFA;
-    color: #5FAAE3;
+    background: #BEFFBE;
+    color: #B88D79;
 }
 
 /* LISTS */
