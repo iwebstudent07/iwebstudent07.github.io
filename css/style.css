@@ -45,7 +45,7 @@ header {
 /* SITE ID */
 .site-id h1{
     margin: 0;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 2em;
 }
 
@@ -121,7 +121,6 @@ section {
 }
 
 .page-home .hero{
-    font-family: 'Permanent Marker', cursive;
     position: relative;
     background: none;
 }
@@ -166,7 +165,7 @@ section {
 /* #HEADINGS */
 h1 {
     font-size: 3em;
-    font-family: 'Plaster', cursive;
+    font-family: 'Notable', sans-serif;
     color: #7d4817;
 }
 
