@@ -147,7 +147,8 @@ section {
 }
 
 .page-sub .hero {
-    min-height: 30vh;
+   min-height: 0;
+   height: 305px;
     background: #BEFFBE;
     color: #B88D79;
 }
