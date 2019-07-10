@@ -152,6 +152,22 @@ section {
     color: #B88D79;
 }
 
+.page-gallery .hero{
+    background-image: url(../blob_sign_gallery.png)
+}
+
+.page-forms .hero{
+    background-image: url(../blob_sign_forms.png)
+}
+
+.page-about .hero{
+    background-image: url(../blob_sign_about.png)
+}
+
+.page-blog .hero{
+    background-image: url(../blob_sign_blog.png)
+}
+
 /* LISTS */
 .lists {
     max-width: 1000px;
