@@ -56,6 +56,8 @@ nav ul {
     justify-content: flex-end;
     margin: 0;
     padding-top: .6em;
+    flex-wrap: wrap;
+    
 }
 
 nav li {
