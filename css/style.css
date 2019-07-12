@@ -17,30 +17,30 @@
 body {
     margin:0;
     padding:0;
-    background: #AAF0D1;
+    background: #061E3E;
     font-family: 'Quicksand', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: #365880;
+    color: #0E98BE;
 }
 
 /* HEADER */
 header {
-    background: #B88D79;
+    background: #061E3E;
     padding: 1em 2em;
     font-family: 'Unica One', cursive;
 }
 
 header a {
-    color: #BEFFBE;
+    color: #0E98BE;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* SITE ID */
@@ -57,7 +57,6 @@ nav ul {
     margin: 0;
     padding-top: .6em;
     flex-wrap: wrap;
-    
 }
 
 nav li {
@@ -71,9 +70,93 @@ nav a {
     font-family: 'Quicksand', sans-serif;
 }
 
+/* MENU BUTTON */
+
+.menu-button {
+    position: absolute;
+    top: 1.5em;
+    right: 4%;
+    display: flex;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .menu-button {
+        top: -9999px;
+        left: -9999px;
+    }
+}
+
+/* NAVICON */
+
+.navicon {
+    color: rgba(255,255,255,0);
+    cursor: default;
+    top: 1.2em;
+}
+
+.navicon::selection {
+    color: rgba(255,255,255,0);
+}
+
+.navicon:after {
+    cursor: pointer;
+    content: "\2630";
+    font-size: 1.5em;
+    color: #0E98BE;
+    display: block;
+    margin-left: .5em;
+    transition: .2s all ease-out;
+}
+
+.expanded .navicon:after {
+    content: "\2715";
+    transform: rotate(90deg);
+}
+
+/* TOGGLE NAV */
+
+@media (max-width: 767px) {
+
+    .toggle-nav {
+        text-align: left;
+    }
+
+    .toggle-nav .site-nav ul {
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: .4s all ease-out;
+    }
+
+    .toggle-nav .site-nav.expanded ul {
+        display: block;
+        max-height: 500px;
+        transition: .8s all ease-out;
+        padding-top: 2em;
+    }
+    
+    .toggle-nav .site-nav ul li {
+        display: block;
+        text-align: center;
+    }
+    
+    .toggle-nav .site-nav ul li a {
+        transition: .2s all ease-out;
+    }
+    
+    .toggle-nav .site-nav ul li a:hover {
+        color: #A1FFF3;
+    }
+
+}
+
 /* FOOTER */
 footer {
-    border-top: 1px solid #365880;
+    border-top: 1px solid #7B3F00;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -97,11 +180,11 @@ section {
 .blog-archives {
     max-width: 600px;
     margin: 0 auto;
-    color: #7d4817;
+    color: #A1FFF3;
 }
 
 .blog-entry {
-    border: 1px solid #3F000E;
+    border: 1px solid #A1FFF3;
     padding: 2em;
     margin: 2em 0;
 }
@@ -109,7 +192,7 @@ section {
 .date {
     opacity: .5;
     font-size: .8em;
-    color: #7B3F00;
+    color: #21EEFF;
 }
 
 /* HERO */
@@ -117,30 +200,14 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: #46CB9B;
+    background-image: url(../images/4049-imperia_1280x720.jpg);
+    background-size: cover;
+    background-position: center center;
     min-height: 50vh;
-    color: #D5F8E8;
 }
 
 .page-home .hero{
     position: relative;
-    background-image: url("../blob_sign_home.png");
-}
-
-.page-home .hero::after{
-    background-image: url("../images/heeroo7.jpg");
-    background-position: center top;
-    background-size: cover;
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: .3;
 }
 
 .hero p{
@@ -151,24 +218,6 @@ section {
 .page-sub .hero {
    min-height: 0;
    height: 305px;
-    background: #BEFFBE;
-    color: #B88D79;
-}
-
-.page-gallery .hero{
-    background-image: url(../blob_sign_gallery.png)
-}
-
-.page-forms .hero{
-    background-image: url(../blob_sign_forms.png)
-}
-
-.page-about .hero{
-    background-image: url(../blob_sign_about.png)
-}
-
-.page-blog .hero{
-    background-image: url(../blob_sign_blog.png)
 }
 
 /* LISTS */
@@ -178,13 +227,13 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
-    color: #5F1A33;
+    color: #A1FFF3;
 }
 /* #HEADINGS */
 h1 {
     font-size: 3em;
     font-family: 'Notable', sans-serif;
-    color: #7d4817;
+    color: #0E98BE;
 }
 
 @media (max-width:767px) {
@@ -197,18 +246,18 @@ h2 {
     margin: .5em 0;
     font-size: 1em;
     font-family: 'Poiret One', cursive;
-    color: #8A5117;
+    color: #0E98BE;
 }
 
 /* #PARAGRAPHS */
         p {
             margin: 0 0 .5em 0;
-            color: #7B3F00;
+            color: #0E98BE;
         }
 
         li{
             text-align: left;
-            color: #3F000E;
+            color: #0E98BE;
         }
 .gallery {
     max-width: 1000px;
