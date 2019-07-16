@@ -77,6 +77,7 @@ nav a {
     top: 1.5em;
     right: 4%;
     display: flex;
+    color: rgba(134, 229, 255,0);
 }
 
 .menu-button:hover {
@@ -93,13 +94,13 @@ nav a {
 /* NAVICON */
 
 .navicon {
-    color: #0E98BE;
+    /* color: #0E98BE; */
     cursor: default;
     top: 1.2em;
 }
 
 .navicon::selection {
-    color: #0E98BE;
+    /* color: #0E98BE; */
 }
 
 .navicon:after {
