@@ -111,6 +111,7 @@ nav a {
     display: block;
     margin-left: .5em;
     transition: .2s all ease-out;
+    border: 2px solid red;
 }
 
 .expanded .navicon:after {
