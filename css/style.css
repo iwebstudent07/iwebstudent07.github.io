@@ -107,7 +107,8 @@ nav a {
     cursor: pointer;
     content: "\2630";
     font-size: 1.5em;
-    color: #0E98BE;
+    /* color: #0E98BE; */
+    color: yellow;
     display: block;
     margin-left: .5em;
     transition: .2s all ease-out;
@@ -117,6 +118,31 @@ nav a {
 .expanded .navicon:after {
     content: "\2715";
     transform: rotate(90deg);
+}
+
+.hamburger {
+    background: pink;
+    width: 20px;
+    height: 3px;
+    line-height: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+.hamburger::before {
+    display: block;
+    content: "";
+    border-top: 3px solid greenyellow;
+    width: 20px;
+    height: 2px;
+    margin: -6px 0 7px 0;
+}
+.hamburger::after {
+    display: block;
+    content: "";
+    border-top: 3px solid orange;
+    width: 20px;
+    height: 2px;
 }
 
 /* TOGGLE NAV */
